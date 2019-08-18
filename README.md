@@ -18,5 +18,6 @@ FROM eisson/node-app-docker
 
 building and pushing :
 ```bash
-$ docker build .  -t eisson/node-app-docker:latest 
+$ docker build -t eisson/node-app-docker:latest 
+# $ docker build -t <your username>/node-web-app .
 $ docker push  eisson/node-app-docker:latest 
